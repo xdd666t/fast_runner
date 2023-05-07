@@ -1,10 +1,19 @@
+# export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+# cargo publish --registry crates-io
 [package]
 name = "fast_runner"
 version = "0.1.0"
 edition = "2021"
+authors = ["xdd66<xdd666@foxmail.com>"]
+license = "Apache-2.0"
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/xdd666t/fast_runner"
+repository = "https://github.com/xdd666t/fast_runner"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-# https://docs.rs/clap/latest/clap/
-clap = "4.2.7"
+clap = { version = "4.2.7", features = ["derive"] }
