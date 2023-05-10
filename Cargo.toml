@@ -2,7 +2,7 @@
 # cargo publish --registry crates-io
 [package]
 name = "fast_runner"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["xdd66<xdd666@foxmail.com>"]
 license = "Apache-2.0"
